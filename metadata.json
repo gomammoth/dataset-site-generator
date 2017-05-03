@@ -14,7 +14,7 @@
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "GO Mammoth",
   "attribution-url": "https://data.gomammoth.co.uk/",
-  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
+  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us2.list-manage.com\",\"uuid\":\"6415e9f32a3aae9fc356ec157\",\"lid\":\"da824bcf10\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
   "publish": false
