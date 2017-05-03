@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://data.gomammoth.co.uk/",
+  "dataset-site-url": "http://data.gomammoth.co.uk/",
   "title": "GO Mammoth Sports and Fitness Activities",
   "description": "Leagues and classes from the gomammoth.co.uk site",
   "publisher-name": "GO Mammoth",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "GO Mammoth",
-  "attribution-url": "https://data.gomammoth.co.uk/",
+  "attribution-url": "http://data.gomammoth.co.uk/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us2.list-manage.com\",\"uuid\":\"6415e9f32a3aae9fc356ec157\",\"lid\":\"da824bcf10\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
