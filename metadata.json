@@ -6,8 +6,8 @@
   "publisher-url": "https://www.gomammoth.co.uk",
   "keyword-1": "Netball",
   "keyword-2": "Sports",
-  "data-url": "http://api.britishcycling.com/openactive/rpde",
-  "created": "2017-05-03",
+  "data-url": "https://reports.gomammoth.co.uk/api/OpenData/Leagues?afterTimestamp=0",
+  "created": "2017-05-17",
   "documentation-url": "https://github.com/gomammoth/opendata",
   "rpde-version": "0.2.3",
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
@@ -17,5 +17,5 @@
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us2.list-manage.com\",\"uuid\":\"6415e9f32a3aae9fc356ec157\",\"lid\":\"da824bcf10\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": false
+  "publish": true
 }
