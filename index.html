@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "GO Mammoth Sports and Fitness Activities",
-      "id": "http://data.gomammoth.co.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.gomammoth.co.uk/",
       "url": "http://data.gomammoth.co.uk/",
-      "description" : "Leagues and classes from the gomammoth.co.uk site; published using OpenActive RPDE v0.2.3.",
+      "name": "GO Mammoth Sports and Fitness Activities",
+      "description": "Leagues and classes from the gomammoth.co.uk site; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "Netball",
-         "Sports",
-         "OpenActive"
+          "Netball",
+          "Sports",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "https://reports.gomammoth.co.uk/api/OpenData/Leagues?afterTimestamp=0"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://reports.gomammoth.co.uk/api/OpenData/Leagues?afterTimestamp=0"
+        }
+      ],
+      "discussionUrl": "https://github.com/gomammoth/opendata/issues",
+      "documentation": "https://github.com/gomammoth/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "GO Mammoth",
-         "url": "https://www.gomammoth.co.uk",
-         "logo": "http://data.gomammoth.co.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "GO Mammoth",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.gomammoth.co.uk/images/logo.png"
+        },
+        "url": "https://www.gomammoth.co.uk"
       },
-      "datePublished" : "2017-05-17T00:00:00.000Z"
+      "datePublished": "2017-05-17T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.gomammoth.co.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
